@@ -1,0 +1,6 @@
+# Simulation environment (all code except code/preprint_*.py).
+# Python 3.14.8 produced the Stage A results (recorded in each unit's fingerprint); the same environment runs Python 3.14.10 since a system update on 2026-11-12.
+# Only the packages the code imports directly.
+neuron==9.0.2
+numpy==2.5.3
+scipy==1.18.1

@@ -1,0 +1,4 @@
+# Figures environment (code/preprint_*.py; no NEURON). Python 3.14.10.
+# Only the packages the code imports directly.
+matplotlib==3.11.2
+numpy==2.5.4

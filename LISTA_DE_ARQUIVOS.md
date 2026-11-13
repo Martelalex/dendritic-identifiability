@@ -4,7 +4,7 @@
 - ./CITATION.cff — 375
 - ./LICENSE — 1083
 - ./LICENSE-DATA — 18657
-- ./README.md — 5320
+- ./README.md — 5428
 - ./code/cadeias/cadeia_lotes.py — 7798
 - ./code/cadeias/cadeia_pf.py — 6396
 - ./code/detect_peak.py — 3101
@@ -87,8 +87,10 @@
 - ./figures/fig6_artifacts.pdf — 28302
 - ./figures/fig6_artifacts.png — 174033
 - ./record/D131_D132_extract.md — 549438
+- ./requirements-figures.txt — 150
+- ./requirements-simulation.txt — 313
 
-Total: 87 arquivos (mais esta lista), 2.49 MB.
+Total: 89 arquivos (mais esta lista), 2.49 MB.
 
 ## Notas (prompt 0021, 12/11)
 - **Decisões aplicadas:** os 15 itens que estavam em dúvida FICAM e o extrato entra (`record/D131_D132_extract.md`); as menções ao HANU, o nome pessoal e as
@@ -105,3 +107,7 @@ Total: 87 arquivos (mais esta lista), 2.49 MB.
   pasta). Entrou o `.gitignore` (`__pycache__/`, `*.pyc`).
 - `CITATION.cff` com o título do preprint e o nome (given "Martel Alexandre", family "Del Colle").
 - Varredura de novo, INCLUINDO os binários (`grep -a`; o `.npz` aberto): nenhum caminho absoluto, nome de usuário, e-mail ou token.
+
+## Notas (prompt 0024, 12/11)
+- README: status "Released with the preprint" e a linha de requisitos com o SciPy; dois arquivos de versões EXATAS (`requirements-simulation.txt`,
+  `requirements-figures.txt`), só com os pacotes que o código importa (conferido pela AST: numpy, neuron, scipy, matplotlib; nenhum faltando).

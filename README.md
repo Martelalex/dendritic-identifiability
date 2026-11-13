@@ -1,6 +1,6 @@
 # Stage A — identifiability of a reduced L5 pyramidal model from multi-site injections (code and figures)
 
-**Status: PREPARED, NOT PUBLISHED.** Nothing here has been uploaded.
+**Status:** Released with the preprint. The version cited by the preprint is the tag `preprint-v1`.
 
 **Licenses:** code under the MIT License (`LICENSE`); data and figures (`code/results/`, `figures/`) under Creative Commons Attribution 4.0 International (`LICENSE-DATA`).
 
@@ -12,7 +12,7 @@
 - The preprint figures: one script per figure (`code/preprint_fig1_morphology_designs.py` … `code/preprint_fig6_artifacts.py`, shared helpers in `code/preprint_comum.py`), all run by `code/preprint_figuras.py`.
 
 ## Requirements (as used)
-- Linux x86_64. Python 3.14, NEURON 9.0.2, numpy 2.5 in the simulation environment. matplotlib 3.11 in a separate environment (any Python with matplotlib), for the figures only.
+- Linux x86_64. Python 3.14, NEURON 9.0.2, NumPy 2.5 and SciPy 1.18 in the simulation environment (exact versions: `requirements-simulation.txt`); matplotlib 3.11 and NumPy 2.5 in a separate environment, for the figures only (`requirements-figures.txt`).
 - Hay et al. 2011 model, ModelDB accession **139653**: download it from https://modeldb.science/139653 (mirror: github.com/ModelDBRepository/139653). The archive used had sha256 `aeeb87d9ea70ddb67ebac5974211cdc7497b25b9a06d084fb9b61f67927e3555`. Unpack it to `.cache/hay/139653-master` and compile the mechanisms with `cd .cache/hay/139653-master/mod && nrnivmodl .`.
 
 ## Step by step
