@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Identifiability of dendritic parameters from sparse intracellular measurements — and the numerical artifacts that inflate it"
+type: software
+license: MIT
+authors:
+  - given-names: "Martel Alexandre"
+    family-names: "Del Colle"
+    orcid: "https://orcid.org/0009-0003-6779-3770"

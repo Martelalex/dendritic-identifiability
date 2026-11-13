@@ -1,0 +1,149 @@
+{
+ "kind": "aa",
+ "fit": "tests/fixtures/allen_ephys/allen_models/genomes/pyr_471129934_all_active_497233049.json",
+ "points": {
+  "basal_ponta": {
+   "sec": "dend[63]",
+   "arc": 144.13462574465314,
+   "dist": 158.8200189536045
+  },
+  "basal_ramif": {
+   "sec": "dend[55]",
+   "arc": 6.6902930798921,
+   "dist": 14.685393208951368,
+   "meio_original": 79.41000947680224
+  },
+  "apical_ponta": {
+   "sec": "apic[25]",
+   "arc": 135.6348856297091,
+   "dist": 539.8777706901561
+  },
+  "apical_ramif": {
+   "sec": "apic[8]",
+   "arc": 273.71572921855096,
+   "dist": 302.64751407848496,
+   "meio_original": 269.93888534507806
+  },
+  "apical_100": {
+   "sec": "apic[8]",
+   "arc": 71.06821514006603,
+   "dist": 100.0
+  },
+  "apical_200": {
+   "sec": "apic[8]",
+   "arc": 171.06821514006603,
+   "dist": 200.0
+  },
+  "apical_300": {
+   "sec": "apic[8]",
+   "arc": 271.06821514006606,
+   "dist": 300.0
+  },
+  "apical_400": {
+   "sec": "apic[24]",
+   "arc": 35.63175680829784,
+   "dist": 400.0
+  },
+  "apical_500": {
+   "sec": "apic[25]",
+   "arc": 95.75711493955288,
+   "dist": 500.0
+  }
+ },
+ "passive_d02": {
+  "Rin_soma": 38.520204719390236,
+  "s2basal_ponta": 0.5321068366491358,
+  "s2basal_ramif": 0.7531244514775077,
+  "s2apical_ponta": 3.15721494910516e-07,
+  "s2apical_ramif": 0.0001132961250964963,
+  "s2apical_100": 0.032116008998487884,
+  "s2apical_200": 0.0019671141984166076,
+  "s2apical_300": 0.00012593892061410985,
+  "s2apical_400": 6.9168305996403935e-06,
+  "s2apical_500": 5.357904240347075e-07,
+  "basal_ponta2s": 0.014569978224418263,
+  "Rin_basal_ponta": 1406.787571306084,
+  "basal_ramif2s": 0.17720332391484592,
+  "Rin_basal_ramif": 163.71311445621055,
+  "apical_ponta2s": 3.0574309910771894e-08,
+  "Rin_apical_ponta": 397.77370785334244,
+  "apical_ramif2s": 5.4992173776026736e-05,
+  "Rin_apical_ramif": 79.36020042424988,
+  "apical_1002s": 0.008901522749959584,
+  "Rin_apical_100": 138.97793401664322,
+  "apical_2002s": 0.0010162740631337473,
+  "Rin_apical_200": 74.56024351912866,
+  "apical_3002s": 5.7954509190411326e-05,
+  "Rin_apical_300": 83.70691205848672,
+  "apical_4002s": 2.8377973224948265e-06,
+  "Rin_apical_400": 93.8889217335834,
+  "apical_5002s": 1.1457573412763886e-07,
+  "Rin_apical_500": 180.1320059404021,
+  "epsp_soma_apical_ponta": 4.1433693809267425e-08,
+  "epsp_local_apical_ponta": 3.503823272889079,
+  "epsp_atten_apical_ponta": 84564588.64175376,
+  "epsp_soma_basal_ponta": 0.06275040507547658,
+  "epsp_local_basal_ponta": 9.108312461250804,
+  "epsp_atten_basal_ponta": 145.15145281206185,
+  "epsp_soma_apical_300": 1.7393635616258507e-05,
+  "epsp_local_apical_300": 0.7415884032631652,
+  "epsp_atten_apical_300": 42635.61797109132,
+  "epsp_soma_apical_500": 7.054603656797553e-08,
+  "epsp_local_apical_500": 1.5110603784974188,
+  "epsp_atten_apical_500": 21419493.596091926
+ },
+ "passive_d01": {
+  "Rin_soma": 38.52013504699292,
+  "s2basal_ponta": 0.5321068139050497,
+  "s2basal_ramif": 0.753124441221693,
+  "s2apical_ponta": 3.1571857859408535e-07,
+  "s2apical_ramif": 0.00011329565575295817,
+  "s2apical_100": 0.032115965570200126,
+  "s2apical_200": 0.0019671012931026643,
+  "s2apical_300": 0.00012593569840779067,
+  "s2apical_400": 6.916912205410171e-06,
+  "s2apical_500": 5.357870970592192e-07,
+  "basal_ponta2s": 0.014569953258257806,
+  "Rin_basal_ponta": 1406.7873772642824,
+  "basal_ramif2s": 0.17720306290934365,
+  "Rin_basal_ramif": 163.71305725055296,
+  "apical_ponta2s": 3.057406435975121e-08,
+  "Rin_apical_ponta": 397.7725087901201,
+  "apical_ramif2s": 5.499196466858745e-05,
+  "Rin_apical_ramif": 79.36002989059338,
+  "apical_1002s": 0.008905796345644474,
+  "Rin_apical_100": 138.91080403311946,
+  "apical_2002s": 0.0010163960207570594,
+  "Rin_apical_200": 74.55067307818653,
+  "apical_3002s": 5.783650471398164e-05,
+  "Rin_apical_300": 83.87540246243074,
+  "apical_4002s": 2.8325868151616426e-06,
+  "Rin_apical_400": 94.06256882735293,
+  "apical_5002s": 1.1459168551119146e-07,
+  "Rin_apical_500": 180.10548708738366,
+  "epsp_soma_apical_ponta": 4.14332959053354e-08,
+  "epsp_local_apical_ponta": 3.512843497069042,
+  "epsp_atten_apical_ponta": 84783105.47862282,
+  "epsp_soma_basal_ponta": 0.0627503290567546,
+  "epsp_local_basal_ponta": 9.119434524153874,
+  "epsp_atten_basal_ponta": 145.32887175628662,
+  "epsp_soma_apical_300": 1.7393169670754105e-05,
+  "epsp_local_apical_300": 0.7422872207858973,
+  "epsp_atten_apical_300": 42676.937834627264,
+  "epsp_soma_apical_500": 7.054546813378693e-08,
+  "epsp_local_apical_500": 1.5196008274387083,
+  "epsp_atten_apical_500": 21540729.229506854
+ },
+ "bap_d2": {
+  "soma": 74.25616011061985,
+  "basal_ponta": 82.1802935480417,
+  "basal_ramif": 67.97532830614388,
+  "apical_ponta": -9.535735614463192e-07,
+  "apical_ramif": 0.004388700187860195,
+  "apical_100": 1.726454875171214,
+  "apical_200": 0.08626804832425705,
+  "apical_300": 0.004780750421858215,
+  "apical_400": -9.539782581668987e-07,
+  "apical_500": -9.535881844158212e-07
+ }
+}

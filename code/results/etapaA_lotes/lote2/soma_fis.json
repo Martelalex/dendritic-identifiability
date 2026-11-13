@@ -1,0 +1,50 @@
+{
+ "determinadas": [
+  1,
+  4,
+  2,
+  5
+ ],
+ "conjuntos": {
+  "soma": {
+   "0.0": {
+    "sigma_estrela": 0.3386712320497562,
+    "limitante": "CaBurst_PA1",
+    "sigma_lin": null,
+    "v_lin": null
+   },
+   "1.0": {
+    "sigma_estrela": 0.33658838774033734,
+    "limitante": "CaBurst_PA1",
+    "sigma_lin": null,
+    "v_lin": null
+   },
+   "10.0": {
+    "sigma_estrela": 0.33664688518407326,
+    "limitante": "CaBurst_PA1",
+    "sigma_lin": null,
+    "v_lin": null
+   },
+   "50.0": {
+    "sigma_estrela": 0.3373199184781598,
+    "limitante": "CaBurst_PA1",
+    "sigma_lin": null,
+    "v_lin": null
+   }
+  }
+ },
+ "exclusao": {
+  "soma|M3": [
+   499,
+   0,
+   40413199.80574212,
+   0.0
+  ],
+  "soma|M5": [
+   4721,
+   0,
+   23853578473032.84,
+   0.0
+  ]
+ }
+}

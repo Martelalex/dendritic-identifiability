@@ -1,0 +1,34 @@
+{
+ "repouso_construcao": "construtor: carregado",
+ "leitura_injecao": 378,
+ "1e-06": {
+  "M1": {
+   "piso_double_mV": 4.494833580537261e-05,
+   "dif_repouso_mV": 0.0003251768157213064,
+   "dif_repouso_sem_injecao_mV": 0.0003251768157213064,
+   "razao_piso": 7.234457291796741
+  },
+  "M4": {
+   "piso_double_mV": 0.00021863157776635944,
+   "dif_repouso_mV": 0.0043296997365658285,
+   "dif_repouso_sem_injecao_mV": 0.0043296997365658285,
+   "razao_piso": 19.80363395260661
+  }
+ },
+ "1e-08": {
+  "M1": {
+   "piso_double_mV": 3.816777223164536e-07,
+   "dif_repouso_mV": 0.0003255173086671448,
+   "dif_repouso_sem_injecao_mV": 0.0003255173086671448,
+   "razao_piso": 852.8590735962695
+  },
+  "M4": {
+   "piso_double_mV": 5.682092982794984e-06,
+   "dif_repouso_mV": 0.0043296246134900684,
+   "dif_repouso_sem_injecao_mV": 0.0043296246134900684,
+   "razao_piso": 761.977078974226
+  }
+ },
+ "pico_memoria_MB": 273.17578125,
+ "tempo_s": 1648.3619918823242
+}
