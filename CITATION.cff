@@ -7,3 +7,16 @@ authors:
   - given-names: "Martel Alexandre"
     family-names: "Del Colle"
     orcid: "https://orcid.org/0009-0003-6779-3770"
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Identifiability of dendritic parameters from sparse intracellular measurements — and the numerical artifacts that inflate it"
+  authors:
+    - given-names: "Martel Alexandre"
+      family-names: "Del Colle"
+      orcid: "https://orcid.org/0009-0003-6779-3770"
+  year: 2026
+  doi: "10.5281/zenodo.24287657"
+  url: "https://doi.org/10.5281/zenodo.24287657"
+  publisher:
+    name: "Zenodo"

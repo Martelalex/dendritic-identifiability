@@ -2,6 +2,8 @@
 
 **Status:** Released with the preprint. The version cited by the preprint is the tag `preprint-v1`.
 
+**Preprint:** Del Colle, M. A. (2026). Identifiability of dendritic parameters from sparse intracellular measurements — and the numerical artifacts that inflate it. Zenodo. https://doi.org/10.5281/zenodo.24287657
+
 **Licenses:** code under the MIT License (`LICENSE`); data and figures (`code/results/`, `figures/`) under Creative Commons Attribution 4.0 International (`LICENSE-DATA`).
 
 **Language note:** code comments and log messages are in Portuguese, and many comments cite entries of the project's internal decision record ("D1xx", "item N"). They are kept as written, so that the code matches the record it was run under.
